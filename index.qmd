@@ -1,21 +1,39 @@
 ---
-title: "Home Page"
+title: "Welcome to My Home Page"
 format: html
 editor: visual
 ---
 
+------------------------------------------------------------------------
+
 # Meet Me!
 
-My name is Avril Silva and I am a journalism student at the George Washington University. Originally from Northern Virginia, I am an active member of The Hatchet, GW's student newspaper and am the founder and president of the GW Association of Hispanic Journalists. I am looking to pursue investigative journalism or foreign correspondence in the future. Have fun exploring my page!
+![](avrilcherries.jpg){fig-align="center" width="400"}
 
-[My Resume](https://github.com/avrilsilva/mywebsite_silva/blob/main/Avril%20Silva-%20Resume.pdf)
+My name is Avril Silva and I am a journalism student at the George Washington University. Originally from Northern Virginia, I am an active member of The Hatchet, GW's student newspaper and am the founder and president of the GW Association of Hispanic Journalists. Along with minoring in international affairs, I am looking to pursue investigative journalism or foreign correspondence in the future. Have fun exploring my page!
 
-[My GitHub Page](https://github.com/avrilsilva)
+### My Contact Information
+
+|                                |                                                                                                  |
+|--------------------------------|--------------------------------------------------------------------------------------------------|
+| **Email:** avrilsilva\@gwu.edu | [My Personal Website](https://theavrilsilva.com/)                                                |
+| **Phone:** (703) 589- 2058     | [My Resume](https://github.com/avrilsilva/mywebsite_silva/blob/main/Avril%20Silva-%20Resume.pdf) |
+|                                | [My GitHub Page](https://github.com/avrilsilva)                                                  |
+
+------------------------------------------------------------------------
 
 # Pages to Explore
 
-### [Film Studies Piece \| Seeing the Light: Tangled and the Romantic Comedy for Children]()
+### My Film Studies Piece 
 
-### [Journalism Piece \| Milken professor receives grant for study aiming to combat food insecurity in Puerto Rico]()
+> [Seeing the Light: Tangled and the Romantic Comedy for Children](https://avrilsilva.github.io/mywebsite_silva/tangled%20paper.html)
 
-### [Data Visualization \| Virginia and Income at a Glance]()
+### My Journalism Piece
+
+> [Milken professor receives grant for study aiming to combat food insecurity in Puerto Rico](https://avrilsilva.github.io/mywebsite_silva/food%20insecurity%20piece.html)
+
+### My Data Visualization 
+
+> Virginia and \_\_ at a Glance
+
+------------------------------------------------------------------------
