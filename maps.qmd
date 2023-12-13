@@ -1,0 +1,93 @@
+---
+title: "Data Visualization"
+format: html
+editor: visual
+---
+
+## Laying down the foundation
+
+Before we go in to making our maps, we must first download all of the necessary packages in order to make the maps we desire. I made sure to bring the tmap and mapview packages over just to make sure I had multiple options for my map visualization.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(tigris)
+library(sf)
+library(tmap)
+library(tmaptools)
+library(htmltools)
+library(janitor)
+library(rmapshaper)
+library(here)
+library(tidycensus)
+library(mapview)
+library(leafsync)
+library(leaflet.extras2)
+options(tigris_class = "sf")
+
+```
+
+Next, I made sure to input the census API key in order to access the census data that I ultimately used to find the variables for my mapping, age and income.
+
+```{r}
+# The census key for MapView mapping
+
+census_api_key("2a6f8c21a30d3024e038d67d7d4eba647dc79cd4", overwrite=TRUE)
+
+```
+
+## Creating an Interactive County Census Map Visualization using MapView
+
+I ultimately landed on using MapView in order to create a visually appealing map visualization that any consumer may be able to understand. To create the map, I followed the following steps and code in order to produce a map of Virginia demonstrating the median age and another comparing the median income of different counties in order to find any relation between age and income in Virginia.
+
+```{r}
+# Establish the potential variables I want to use in the analysis of median age in Virginia counties.
+
+myvars <- c(totalpop = "B01003_001",
+            medincome = "B19013_001",
+            medage = "B01002_001")
+# Make a table with all of the variables chosen 
+
+va_counties<- get_acs(geography = "county",
+                       variables = c(myvars),
+                       state = "VA",
+                       output = "wide",
+                       geometry = TRUE)
+# Clean up the column names by taking out the "E"
+
+colnames(va_counties) <- sub("E$", "", colnames(va_counties))
+
+# Customize the labels and popups for the map by creating multiple labels for each map and a common-use popup
+
+mylabelone <- glue::glue("{va_counties$NAM}: {va_counties$medage} years old")
+mylabeltwo <- glue::glue("{va_counties$NAM}: ${va_counties$medincome}")
+
+mypopup <- glue::glue("<strong>{va_counties$NAM}</strong><br />
+                      Total Population: {va_counties$totalpop}<br />
+                      Median Age in the County: {va_counties$medage}<br />
+                      Median Income in the County: ${va_counties$medincome}") %>% 
+  lapply(htmltools::HTML)
+
+# Write the code and put in a color scheme that I want to create the final interactive maps of both age and income, split between blue to demonstrate income and pink to demonstrate age.
+
+vamap_age <- mapview(va_counties, zcol = "medage", 
+         col.regions = RColorBrewer::brewer.pal(9, "PuRd"), 
+         alpha.regions = 1,
+         popup = mypopup,
+        label = mylabelone)
+
+vamap_income <- mapview(va_counties, zcol = "medincome", 
+         col.regions = RColorBrewer::brewer.pal(9, "Blues"), 
+         alpha.regions = 1,
+         popup = mypopup,
+        label = mylabeltwo)
+
+sync(vamap_income, vamap_age)
+
+vamap_age | vamap_income
+```
+
+## Conclusions
+
+Using the map visualization and census data, one can find that the county with the highest median income in Virginia is Northumberland County with a median age of 59.8. The county with the lowest median age was Lexington City County with a median age of 22.4, probably due to the dense college-age population in the area. In income, however, the county with the highest median income was Loudoun County with a median income of 156,821 dollars and the lowest was Dickenson County at 33,905 dollars. Virginia displays an interesting trend with income and age, in that it shows a more bell-curved trend rather than a positive or negative correlation between income and age. In Virginia being my home state, I find this pattern to be quite indicative of the city-sprawling areas in the state, but question the role that older retirees and their incomes have in skewing the results of this data collection.
