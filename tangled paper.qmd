@@ -6,7 +6,7 @@ editor: visual
 
 > [Go back to Homepage](https://avrilsilva.github.io/mywebsite_silva/)
 
-#### In Seeing the Light: *Tangled* and the Romantic Comedy for Children, I explore the parallels found between the Disney movie *Tangled* (2010) and the romantic comedy tradition, arguing that in defining *Tangled* as a rom-com, the film ultimately warps the perceptions and expectations of romance toward children to be in line with a heteronormative convention.
+> #### In Seeing the Light: *Tangled* and the Romantic Comedy for Children, I explore the parallels found between the Disney movie *Tangled* (2010) and the romantic comedy tradition, arguing that in defining *Tangled* as a rom-com, the film ultimately warps the perceptions and expectations of romance toward children to be in line with a heteronormative convention.
 
 ## Seeing the Light: Tangled and the Romantic Comedy for Children
 
