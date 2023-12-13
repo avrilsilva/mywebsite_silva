@@ -4,11 +4,19 @@ format: html
 editor: visual
 ---
 
+> [Go back to Homepage](https://avrilsilva.github.io/mywebsite_silva/)
+
+## Virginia, Age, and Income at a Glance 
+
+> **As a proud Virginian, I wanted to take advantage of the census data and map visualization tools I learned across my time in Reporting in the Digital Age to find if there were any trends between the median age and median income in counties across Virginia. I landed on using the mapping tools found in the MapView packages and used the census data to formulate a dynamic analysis of my subject matter. Enjoy!**
+
+------------------------------------------------------------------------
+
 ## Laying down the foundation
 
-Before we go in to making our maps, we must first download all of the necessary packages in order to make the maps we desire. I made sure to bring the tmap and mapview packages over just to make sure I had multiple options for my map visualization.
+> **Before we go in to making our maps, we must first download all of the necessary packages in order to make the maps we desire. I made sure to bring the tmap and mapview packages over just to make sure I had multiple options for my map visualization.**
 
-```{r setup, include=FALSE}
+```{r}
 knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
@@ -28,7 +36,7 @@ options(tigris_class = "sf")
 
 ```
 
-Next, I made sure to input the census API key in order to access the census data that I ultimately used to find the variables for my mapping, age and income.
+> **Next, I made sure to input the census API key in order to access the census data that I ultimately used to find the variables for my mapping, age and income.**
 
 ```{r}
 # The census key for MapView mapping
@@ -37,9 +45,11 @@ census_api_key("2a6f8c21a30d3024e038d67d7d4eba647dc79cd4", overwrite=TRUE)
 
 ```
 
+------------------------------------------------------------------------
+
 ## Creating an Interactive County Census Map Visualization using MapView
 
-I ultimately landed on using MapView in order to create a visually appealing map visualization that any consumer may be able to understand. To create the map, I followed the following steps and code in order to produce a map of Virginia demonstrating the median age and another comparing the median income of different counties in order to find any relation between age and income in Virginia.
+> **I ultimately landed on using MapView in order to create a visually appealing map visualization that any consumer may be able to understand. To create the map, I followed the following steps and code in order to produce a map of Virginia demonstrating the median age and another comparing the median income of different counties in order to find any relation between age and income in Virginia.**
 
 ```{r}
 # Establish the potential variables I want to use in the analysis of median age in Virginia counties.
@@ -87,6 +97,8 @@ sync(vamap_income, vamap_age)
 
 vamap_age | vamap_income
 ```
+
+------------------------------------------------------------------------
 
 ## Conclusions
 
