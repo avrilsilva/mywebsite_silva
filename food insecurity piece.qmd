@@ -1,0 +1,51 @@
+---
+title: "Journalism Piece"
+format: html
+editor: visual
+---
+
+## Milken professor receives grant for study aiming to combat food insecurity in Puerto Rico
+
+![](food insecurity.jpeg)
+
+#### By: Avril Silva, Reporter
+
+A Milken Institute School of Public Health professor received a \$750,000 grant in December from the National Science Foundation to lead a study exploring food insecurity and climate change in Puerto Rico.
+
+Uriyoán Colón-Ramos, the principal investigator of the study and an associate professor of global health, said she is leading a team of scholars, researchers, nonprofits and Puerto Rican food advocates to identify a strategy for nutritional and food insecurity in Puerto Rico as part of the NSF\'s Convergence Accelerator [program](https://beta.nsf.gov/funding/initiatives/convergence-accelerator) which prioritizes multifield collaboration during research projects. The [study](https://gwtoday.gwu.edu/puerto-rico-healthier-eating-could-help-build-healthier-planet) will measure the climate-friendliness of food systems in Puerto Rico and if Puerto Ricans have access to healthy food by using data from the digital app [PRoduce](https://puertoricoproduce.com/), which connects users with small farmers and food producers in online farmer\'s markets.
+
+She said the study is currently in its first phase, marked by exploratory experiments to prepare a proposal for phase two, due in August 2023. Colón-Ramos said both phases will gather observatory diet data from the app to implement food security policy changes in Puerto Rico like the [implantation](https://www.cbpp.org/research/food-assistance/the-supplemental-nutrition-assistance-program-snap) of the Supplemental Nutrition Assistance [Program](https://www.fns.usda.gov/snap/supplemental-nutrition-assistance-program), a program that financially supports low-income families for healthy food, in U.S. territories.
+
+\"I grew up in Puerto Rico, never thinking that I was going to be working in Puerto Rico,\" Colón-Ramos said. \"Then I started every time I would go by and I started seeing issues in my own country.\"
+
+PRoduce will [help](https://puertoricoproduce.com/) the team track customer\'s shopping carts to develop an \"eco-score\" within the app that will monitor the climate impact and nutritional value of a certain food item.
+
+Colón-Ramos said her inspiration for the study came from her own experience growing up in Puerto Rico and realizing healthy foods listed in textbooks weren\'t easily accessible and didn\'t taste fresh compared to other fruit she consumed off the island. She said the goal of the study is to let Puerto Rico lead as an example for other regions experiencing food insecurity issues through a global network of data on food production, distribution and consumption.
+
+Puerto Rico imports more than 85 percent of its food due to the [damage](https://worldcentralkitchen.cdn.prismic.io/worldcentralkitchen/dfc15a7a-8163-4f45-a1b6-28419a4bbeda_PuertoRico_AgAssessment_Report_2018-07-21.pdf) from recent hurricanes on small farms and cultivation, according to an agricultural assessment by the World Central Kitchen.
+
+\"How can we use that technology to collect data that can be used to promote policy change or structural changes or at least inform what would work best?\" Colón-Ramos said.
+
+Colón-Ramos said the team will collaborate with Trito Agro-Industrial [Services](https://taispr.com/), Inc. -- a large scale composting business in Puerto Rico -- in hopes of increasing access to healthy and climate-friendly foods in Puerto Rico.
+
+Natalia Guerra Uccelli, a senior studying public health in Milken and a research assistant for the study, said her interest in the environment and global health and her Puerto Rican heritage through her dad\'s side of the family drew her to the project. She said the study incorporates a variety of scientific fields like nutrition, global health and environmental health and addresses food insecurity issues in Puerto Rico.
+
+\"What I love about this project is just how overarching it is,\" Guerra said. \"It\'s really interesting to see how all of these roles kind of come together in this project.\"
+
+Experts in nutrition and food security said the intersection of disciplines like climate change and food insecurity within the study can help expand the solutions to food insecurity.
+
+Jessica Owens-Young, an assistant professor in the department of health studies at American University, said connecting Puerto Ricans with fresh produce through digital platforms could create a positive precedent for other regions facing food and nutrition insecurity across the world like countries in Africa, Yemen and islands in the Caribbean.
+
+She said she wants to stress the intersectionality of the climate and economy with food insecurity because weather events like hurricanes, droughts and fires that stem from climate change can decrease the crop yield of any given year and lead to more food shortages.
+
+\"Just because someone is food-secure one month doesn\'t mean the next month that they will be,\" Owens-Young said. \"So there\'s ebbs and flows to this, and so any kind of intervention that we design should consider the nature of food insecurity and not just rely on stereotypes about it.\"
+
+Eilish Zembilci, an alumna and a nonresident adjunct fellow at Duke University\'s Sanford School of Public Policy, said food insecurity typically stems from high food prices that exceed a household\'s income and cost of living.
+
+Zembilci said current food systems interfere with individuals\' access to basic needs. She said the mitigation of food insecurity lies in policies that governments can hopefully implement as a result of the models from this study.
+
+\"We need more integrated and more participatory policymaking,\" Zembilci said. \"That enables us to be able to cover the intersects where food is crossing into other disciplines in a way that\'s really meaningful.\"
+
+*Maggie O\'Neill and Sophia Goedert contributed reporting.*
+
+[Link to published The Hatchet Article](https://gwhatchet.com/2023/03/06/milken-professor-receives-grant-for-study-aiming-to-combat-food-insecurity-in-puerto-rico/#)
