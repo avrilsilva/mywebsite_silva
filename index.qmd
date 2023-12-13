@@ -34,6 +34,6 @@ My name is Avril Silva and I am a journalism student at the George Washington Un
 
 ### My Data Visualization 
 
-> Virginia and \_\_ at a Glance
+> [Virginia, Age, and Income at a Glance](https://avrilsilva.github.io/mywebsite_silva/maps.html)
 
 ------------------------------------------------------------------------
